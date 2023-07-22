@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+
+            height: 100vh; /*viwerport height*/
+        }
+
+        .border {
+            border: 2px blue solid;
+            padding: 5px;
+        }
+
+        .borderDashed {
+            border: 2px dashed red;
+            padding: 5px;
+        }
+
+        .borderDotted {
+            border: 2px dotted green;
+            padding: 5px;
+        }
+
+        .borderDouble {
+            border: red double;
+            padding: 5px;
+            margin-bottom: 50px;
+        }
+
+        .borderOutset {
+            border: 2px green outfset;
+        }
+
+        .borderInset {
+            border: 2px gray inset;
+        }
+    </style>
+</head>
+<body>
+    <p class="border">Exemplo de borda simples</p>
+    <p class="borderDashed">Exemplo de borda com Dashed</p>
+    <p class="borderDotted">Exemplo de borda com Dotted</p>
+    <p class="borderDouble">Exemplo de borda com Double</p>
+    
+    <p class="borderOutset">Exemplo de borda com Outset</p>
+    <p class="borderInset">Exemplo de borda com Inset</p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando JS</title>
+    <script>
+        function changeParagraph(){
+            document.getElementById('paragraph').innerHTML = "Texto Alterado";
+            console.log("Funcionou!");
+        }
+
+        function changeNumber(title){
+            document.getElementById("number").innerHTML = `${title}`;
+        }
+
+        function shpwMyName(myName){
+            document.getElementById("name").innerHTML = `${myName}`;
+        }
+
+        function showAlert(){
+            window.alert("Alerta")
+        }
+    </script>
+</head>
+<body>
+    <p id="paragraph">Isto é um parágrafo</p>
+    <p id="number">0</p>
+    <p id="name">Meu nome</p>
+    <button onclick="changeParagraph()">Alterar Paragrafo</button>
+    <button onclick="changeNumber('6')">Alterar para 6</button>
+    <button onclick="changeNumber('8')">Alterar para 8</button>
+    <button onclick="showMyName('Dedier Jr')">Exibir meu nome</button>
+    <button onclick="showAlert()">Criar alerta</button>
+</body>
+</html>
