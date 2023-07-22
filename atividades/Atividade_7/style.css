@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(118,0,0);
+}
+
+header {
+    margin:  0% 0% 3% 2.5%;
+    background: rgb(118,0,0);
+    background: linear-gradient(90deg, rgba(118,0,0,1) 29%, rgba(251,200,200,1) 85%, rgba(255,255,255,1) 100%);
+}
+
+main {
+    margin: 0% 2.5% 0% 2.5%;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 1.5%;
+}
