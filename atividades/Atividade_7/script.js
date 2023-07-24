@@ -5,19 +5,19 @@
         let validationGenre = document.forms["register"]["genre"].value;
 
         if(validationTitle == ""){
-            alert("O Código deve ser preenchido;")
-            return false;
-        }
-        if(validationAlbum == ""){
             alert("O Título deve ser preenchido;")
             return false;
         }
+        if(validationAlbum == ""){
+            alert("O Álbum deve ser preenchido;")
+            return false;
+        }
         if(validationArtist == ""){
-            alert("O Diretor deve ser preenchido;")
+            alert("O Artista deve ser preenchido;")
             return false;
         }
         if(validationGenre == ""){
-            alert("A data de lançamento deve ser preenchida;")
+            alert("A Gênero deve ser preenchido;")
             return false;
         }
         alert("A validação ocorreu de forma correta")
